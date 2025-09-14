@@ -1,4 +1,9 @@
 import sys
+
+
+#add dog functionality 
+
+
 def cat():
     print("miaww")
 
