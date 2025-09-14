@@ -1,15 +1,18 @@
 import sys
-
+def cat():
+    print("miaww")
 
 def default():
     print("This is the default function.")
 
 
 def main():
-    default()
-
-
+    if sys.argv[1]=="cat":
+        cat()
+    else:
+        default()
+      
     
 
 if __name__ == "__main__":
-    default()
+    main()
