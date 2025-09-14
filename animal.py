@@ -6,7 +6,8 @@ import sys
 
 def cat():
     print("miaww")
-
+def dog ():
+    print("woof woof")
 def default():
     print("This is the default function.")
 
@@ -14,6 +15,8 @@ def default():
 def main():
     if sys.argv[1]=="cat":
         cat()
+    else if sys.argvb[2]=="dog":
+        dog()
     else:
         default()
       
