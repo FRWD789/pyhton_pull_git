@@ -15,7 +15,7 @@ def default():
 def main():
     if sys.argv[1]=="cat":
         cat()
-    else if sys.argvb[2]=="dog":
+    elif sys.argv[1]=="dog":
         dog()
     else:
         default()
